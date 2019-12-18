@@ -1,1 +1,1 @@
-web: python manage.py && migrate && gunicorn todoNew.wsgi
+web: python manage.py migrate && gunicorn todoNew.wsgi
