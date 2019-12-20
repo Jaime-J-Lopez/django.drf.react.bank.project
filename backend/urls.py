@@ -1,4 +1,4 @@
-"""todoNew URL Configuration
+"""backend URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
-from todoNew.bank import views
+from backend.bank import views
 
 router = routers.DefaultRouter()
 router.register(r'todos', views.TodoView, 'Todo')
