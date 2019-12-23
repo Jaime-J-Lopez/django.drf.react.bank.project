@@ -3,5 +3,5 @@
 Initial Push Backend Heroku deployment
 #### https://django-jaime-backend.herokuapp.com/
 
-Initial Push for Frontend  Heroku Comming soon!
+Initial Push for Frontend  Heroku Coming soon!
 
