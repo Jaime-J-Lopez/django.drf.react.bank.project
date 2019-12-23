@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e25a4a99-ab0b-4cb5-b348-28698815988f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V5FguJWnTAGPd9PiCDp3W6YnNv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/frontend" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e25a4a99-ab0b-4cb5-b348-28698815988f" name="Default Changelist" comment="" />
+      <created>1576535163914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576535163914</updated>
+      <workItem from="1576535212440" duration="536000" />
+      <workItem from="1576535891551" duration="113000" />
+      <workItem from="1576536708832" duration="5198000" />
+      <workItem from="1576605090003" duration="12652000" />
+      <workItem from="1576623909487" duration="2091000" />
+      <workItem from="1576626100733" duration="5981000" />
+      <workItem from="1576694000910" duration="124000" />
+      <workItem from="1576694146930" duration="4150000" />
+      <workItem from="1576705506517" duration="777000" />
+      <workItem from="1576708485815" duration="1711000" />
+      <workItem from="1576713269634" duration="674000" />
+      <workItem from="1576714388677" duration="112000" />
+      <workItem from="1576733948062" duration="2336000" />
+      <workItem from="1576780661462" duration="10575000" />
+      <workItem from="1576803126751" duration="4438000" />
+      <workItem from="1576887497820" duration="3050000" />
+      <workItem from="1577127355717" duration="29000" />
+      <workItem from="1577127406792" duration="1882000" />
+      <workItem from="1577130420999" duration="995000" />
+      <workItem from="1577135571913" duration="2386000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Pipfile" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="64" width="939" height="671" key="#Notifications" timestamp="1576706661083">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="64" width="939" height="671" key="#Notifications/1280.32.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1576706661083" />
+    <state x="209" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577127442517">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="209" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/1280.32.1920.1080@0.0.1280.800" timestamp="1577127442517" />
+    <state x="209" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1576737191937" />
+    <state x="240" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog/1280.32.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1576605129690" />
+    <state x="363" y="199" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576692351296">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="363" y="199" key="#com.intellij.fileTypes.FileTypeChooser/1280.32.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1576692351295" />
+    <state x="328" y="134" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577127362367">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="328" y="134" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800/1280.32.1920.1080@0.0.1280.800" timestamp="1577127362367" />
+    <state width="1238" height="186" key="GridCell.Tab.0.bottom" timestamp="1576803099109">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="186" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.32.1920.1080@0.0.1280.800" timestamp="1576803099109" />
+    <state width="1238" height="186" key="GridCell.Tab.0.bottom/1280.32.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1576690040437" />
+    <state width="1238" height="186" key="GridCell.Tab.0.center" timestamp="1576803099106">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="186" key="GridCell.Tab.0.center/0.0.1280.800/1280.32.1920.1080@0.0.1280.800" timestamp="1576803099106" />
+    <state width="1238" height="186" key="GridCell.Tab.0.center/1280.32.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1576690040433" />
+    <state width="1238" height="186" key="GridCell.Tab.0.left" timestamp="1576803099104">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="186" key="GridCell.Tab.0.left/0.0.1280.800/1280.32.1920.1080@0.0.1280.800" timestamp="1576803099104" />
+    <state width="1238" height="186" key="GridCell.Tab.0.left/1280.32.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1576690040419" />
+    <state width="1238" height="186" key="GridCell.Tab.0.right" timestamp="1576803099108">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="186" key="GridCell.Tab.0.right/0.0.1280.800/1280.32.1920.1080@0.0.1280.800" timestamp="1576803099108" />
+    <state width="1238" height="186" key="GridCell.Tab.0.right/1280.32.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1576690040435" />
+    <state x="141" y="48" key="SettingsEditor" timestamp="1576696320458">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="141" y="48" key="SettingsEditor/1280.32.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1576696320458" />
+    <state x="403" y="250" key="cloudConfig.SelfSettingsDialog" timestamp="1576698454896">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="403" y="250" key="cloudConfig.SelfSettingsDialog/1280.32.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1576698454896" />
+    <state x="300" y="231" key="com.intellij.ide.util.TipDialog" timestamp="1576626118416">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="300" y="231" key="com.intellij.ide.util.TipDialog/1280.32.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1576626118416" />
+  </component>
+</project>
