@@ -1,5 +1,7 @@
 # django.drf.react.bank.project
 
-Initial Push backend Heroku deployment
+Initial Push Backend Heroku deployment
 #### https://django-jaime-backend.herokuapp.com/
+
+Initial Push for Frontend  Heroku Comming soon!
 
