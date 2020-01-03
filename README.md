@@ -1,8 +1,13 @@
 # django.drf.react.bank.project
 
-Initial Push Backend Heroku deployment
-#### https://django-react-drf.herokuapp.com/api/bank/
+Backend Heroku deployment
+#### [Backend](https://django-react-drf.herokuapp.com/api/bank/)
 
-Initial Push for Frontend Heroku deployment
+Frontend Heroku deployment
 
-#### https://django-react-frontend.herokuapp.com/
+#### [Frontend] (https://django-react-frontend.herokuapp.com/)
+
+#### Build Stack:
+[React] - (https://reactjs.org/) - Frontend framework 
+[Django] - (https://www.djangoproject.com/) - Backend framework 
+[Heroku] - (https://www.heroku.com) - Platform as a Service for Deployment
