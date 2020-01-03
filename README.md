@@ -5,11 +5,12 @@ Backend Heroku deployment
 
 Frontend Heroku deployment
 
-#### [Frontend] (https://django-react-frontend.herokuapp.com/)
+#### [Frontend](https://django-react-frontend.herokuapp.com/)
 
 #### Build Stack:
-[React](https://reactjs.org/) - Frontend framework 
 
-[Django]https://www.djangoproject.com/) Backend framework 
+#### [React](https://reactjs.org/) Frontend framework 
 
-[Heroku](https://www.heroku.com)Platform as a Service for Deployment
+#### [Django](https://www.djangoproject.com/) Backend framework 
+
+#### [Heroku](https://www.heroku.com) Platform as a Service for Deployment
