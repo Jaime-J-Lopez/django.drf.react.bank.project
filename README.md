@@ -3,6 +3,6 @@
 Initial Push Backend Heroku deployment
 #### https://django-react-drf.herokuapp.com/api/bank/
 
-Initial Push for Frontend  Heroku Coming soon!
+Initial Push for Frontend Heroku deployment
 
 #### https://django-react-frontend.herokuapp.com/
