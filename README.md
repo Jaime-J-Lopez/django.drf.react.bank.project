@@ -3,10 +3,11 @@
 Backend Heroku deployment
 #### [Backend](https://django-react-drf.herokuapp.com/api/bank/)
 
+#### [Backend Repo](https://github.com/geekwise-jaime-lopez/django.drf.react.bank.project/tree/production.backend)
 Frontend Heroku deployment
 
 #### [Frontend](https://django-react-frontend.herokuapp.com/)
-
+#### [Frontend Repo](https://github.com/geekwise-jaime-lopez/react-frontend/tree/production)
 #### Build Stack:
 
 #### [React](https://reactjs.org/) Frontend framework 
