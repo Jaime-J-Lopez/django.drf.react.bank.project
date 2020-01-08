@@ -18,13 +18,15 @@ from django.urls import path
 from django.urls import path, include
 from rest_framework import routers
 from bank import views
+from accounts import views as userView
 
 router = routers.DefaultRouter()
 router.register(r'bank', views.BankView, 'banks')
+router.register(r'users', userView.UserViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
-    path('api-auth/',include('rest_framework.urls', namespace='rest_framework')),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('users/', include('accounts.urls')),
 ]
