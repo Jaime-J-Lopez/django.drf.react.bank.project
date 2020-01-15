@@ -7,7 +7,6 @@ from django.contrib.auth import authenticate
 class PermissionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Permission
-        # fields = '__all__'
         fields = ('name',)
 
 
