@@ -1,7 +1,7 @@
 # django.drf.react.bank.project
 
 Backend Heroku deployment
-#### [Backend](https://django-react-drf.herokuapp.com/api/bank/)
+#### [Backend](https://django-react-drf.herokuapp.com/api/)
 
 #### [Backend Repo](https://github.com/geekwise-jaime-lopez/django.drf.react.bank.project/tree/production.backend)
 Frontend Heroku deployment
