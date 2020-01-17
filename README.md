@@ -1,11 +1,16 @@
 # django.drf.react.bank.project
 
 Backend Heroku deployment
+Admin Login: admin password: Legitpassword!
+
 #### [Backend Heroku](https://django-react-drf.herokuapp.com/api/)
 
 #### [Backend Repo \ backend.auth demo branch](https://github.com/geekwise-jaime-lopez/django.drf.react.bank.project/tree/backend.auth)
 
 Frontend Heroku deployment
+Login: Username: Demo Password: Demo123
+
+Register and Login using authentication.
 
 #### [Frontend Heroku ](https://django-react-frontend.herokuapp.com/login/)
 #### [Frontend Repo \ frontend.auth demo branch](https://github.com/geekwise-jaime-lopez/react-frontend/tree/frontend.auth)
@@ -19,9 +24,9 @@ Frontend Heroku deployment
 
 ### Getting Started
 
-#### Ability to Register and Login using authentication.
 
 #### Python 3 - Being able to run a virtual environment
+
 
 #### python manage.py runserver
 Local: 
