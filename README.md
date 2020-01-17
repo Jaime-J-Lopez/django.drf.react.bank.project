@@ -19,6 +19,8 @@ Frontend Heroku deployment
 
 ### Getting Started
 
+#### Ability to Register and Login using authentication.
+
 #### Python 3 - Being able to run a virtual environment
 
 #### python manage.py runserver
@@ -28,3 +30,4 @@ Open http://localhost:8000 to view it in the browser.
 #### yarn start
 Local:
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
