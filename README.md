@@ -12,7 +12,7 @@ Login: Username: Demo Password: Demo123
 
 Register and Login using authentication.
 
-#### [Frontend Heroku ](https://django-react-frontend.herokuapp.com/login/)
+#### [Frontend Heroku ](https://django-react-frontend.herokuapp.com/)
 #### [Frontend Repo \ frontend.auth demo branch](https://github.com/geekwise-jaime-lopez/react-frontend/tree/frontend.auth)
 #### Build Stack:
 
