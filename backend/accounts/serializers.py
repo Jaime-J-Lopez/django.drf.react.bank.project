@@ -3,6 +3,18 @@ from django.contrib.auth.models import User, Permission
 from django.contrib.auth import authenticate
 
 
+class PasswordSerializer(serializers.Serializer):
+    username = serializers.CharField()
+    password = serializers.CharField()
+    def create(self, validated_data):
+        pass
+    def update(self, instance, validated_data):
+        pass
+    def validate(self, data):
+        """ check that username and new password are different """
+        if data["username"] == data["password"]:
+            raise serializers.ValidationError("Username and new password should be different")
+        return data
 # PERMISSIONS
 class PermissionSerializer(serializers.ModelSerializer):
     class Meta:
