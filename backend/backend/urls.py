@@ -23,11 +23,12 @@ from accounts import views as user_views
 router = routers.DefaultRouter()
 router.register(r'bank', views.BankView, 'banks')
 router.register(r'users', user_views.UserViewSet, 'users')
-router.register(r'groups', user_views.UserViewSet, 'groups')
+router.register(r'groups', user_views.GroupViewSet, 'groups')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('users/', include('accounts.urls')),
+    path('login/', include(router.urls)),
 ]
