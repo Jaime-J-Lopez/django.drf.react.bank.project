@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.contrib.auth.models import User, Group
-from .serializers import UserSerializer, PasswordSerializer
+from .serializers import UserSerializer, PasswordSerializer, GroupSerializer
 from rest_framework import viewsets, permissions, status
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -8,8 +8,12 @@ from rest_framework.generics import get_object_or_404
 # Create your views here.
 
 class UserViewSet(viewsets.ModelViewSet):
-    queryset = User.objects.all()
     serializer_class = UserSerializer
+    queryset = User.objects.all()
+
+class GroupViewset(viewsets.ModelViewSet):
+    serializer_class = GroupSerializer
+    queryset = Group.objects.all()
 
 class PasswordAPIView(APIView):
     def get_object(self, username):

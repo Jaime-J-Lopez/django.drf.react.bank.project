@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from django.contrib.auth.models import User, Permission
+from django.contrib.auth.models import User, Permission, Group
 from django.contrib.auth import authenticate
 
 
@@ -21,6 +21,10 @@ class PermissionSerializer(serializers.ModelSerializer):
         model = Permission
         fields = ('name',)
 
+class GroupSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Group
+        fields = ('id', 'name')
 
 # User Serializer
 class UserSerializer(serializers.ModelSerializer):
@@ -42,7 +46,7 @@ class UserSerializer(serializers.ModelSerializer):
 class RegisterSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ('id', 'username', 'email', 'password')
+        fields = ('id', 'username', 'email', 'password', 'groups')
         extra_kwargs = {'password': {'write_only': True}}
 
     def create(self, validated_data):
@@ -51,6 +55,7 @@ class RegisterSerializer(serializers.ModelSerializer):
             validated_data['email'],
             validated_data['password']
         )
+        user.groups.set(validated_data['groups'])
         return user
 
 
