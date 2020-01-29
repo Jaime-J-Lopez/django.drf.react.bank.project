@@ -1,8 +1,8 @@
 from django.contrib import admin
-from .models import Bank
+from .models import Bank, Account
 
-class BankAdmin(admin.ModelAdmin):
-    list_display = ('title', 'description', 'completed')
+# class BankAdmin(admin.ModelAdmin):
+#     list_display = ('title', 'description', 'completed')
 
 # Register your models here.
-admin.site.register(Bank, BankAdmin)
+admin.site.register((Bank, Account))
