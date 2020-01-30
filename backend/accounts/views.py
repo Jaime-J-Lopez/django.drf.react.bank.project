@@ -1,11 +1,27 @@
 from django.shortcuts import render
 from django.contrib.auth.models import User, Group
 from .serializers import UserSerializer, PasswordSerializer, GroupSerializer
+from bank.models import Account
 from rest_framework import viewsets, permissions, status
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework.generics import get_object_or_404
+# from rest_framework.generics import
+from bank.serializers import AccountSerializer
 # Create your views here.
+
+class AccountView(viewsets.ModelViewSet):
+    # permission_classes = [
+    #     permissions.IsAuthenticated,
+    # ]
+    # serializer_class = AccountSerializer
+    #
+    # def get_queryset(self):
+    #     return self.request.user.holders.all()
+    #
+    # def perform_create(self, serializer):
+    #     serializer.save(holder=self.request.user)
+    queryset = Account.objects.all()
+    serializer_class = AccountSerializer
 
 class UserViewSet(viewsets.ModelViewSet):
     serializer_class = UserSerializer

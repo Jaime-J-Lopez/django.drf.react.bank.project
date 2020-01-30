@@ -8,5 +8,5 @@ class BankSerializer(serializers.ModelSerializer):
 
 class AccountSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
-        fields = ['id', 'name']
         model = Account
+        fields = ['id', 'name', 'balance']
